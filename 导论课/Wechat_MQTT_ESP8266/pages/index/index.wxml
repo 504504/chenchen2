@@ -1,0 +1,26 @@
+
+
+
+  <view class="container">
+  
+    <view>
+    <text>大电灯泡儿</text>
+    </view>
+    <view class='humdTemp-container'>
+      <image src="{{value.Humdlogo}}" class='humd-logo'></image>
+      <image src="{{value.Templogo}}" class='temp-logo'></image>
+    </view>
+    <view>
+      <text class='humd-motto'>湿度：{{value.HumdValue}}%</text>
+      <text>温度：{{value.TempValue}}°</text>
+    </view>
+
+  <view bindtap="LedControl" >
+      <view class='led-container'>
+        <image src="{{LEDValue[0].LEDlogo}}" class='led-logo' ></image>
+      </view>
+  </view>
+</view>
+    
+  
+  

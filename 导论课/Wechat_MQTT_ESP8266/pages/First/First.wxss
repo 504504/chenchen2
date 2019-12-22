@@ -1,0 +1,21 @@
+/* pages/First/First.wxss */
+.container{
+    position: relative;
+}
+.other-widget{
+    position: absolute;
+}
+
+.jinru{
+border:0px solid red;
+width: 80x;
+height: 20px;
+position:absolute;
+top:200px;
+right:130px;
+font-size: 16px;
+line-height: 20px
+color： white;
+
+
+}
